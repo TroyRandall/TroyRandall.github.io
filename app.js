@@ -16,7 +16,12 @@
         document.querySelector('.active').classList.remove("active")
         document.querySelector("#contact").classList.add("active")
     })
-
+    document.querySelector("#contactMe2").addEventListener("click", () => {
+        document.querySelector(".active-btn").classList.remove("active-btn");
+        document.querySelector("#contactToggle").classList.add("active-btn");
+        document.querySelector('.active').classList.remove("active")
+        document.querySelector("#contact").classList.add("active")
+    })
     document.querySelector("#testimonials").addEventListener("click", () => {
         document.querySelector(".active-btn").classList.remove("active-btn");
         document.querySelector("#testimonialsToggle").classList.add("active-btn");
